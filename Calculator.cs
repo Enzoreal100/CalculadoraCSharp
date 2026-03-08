@@ -14,6 +14,9 @@
             Console.WriteLine("\nEscolha uma opção: \r\n1-Adição\r\n2-Subtração\r\n3-Multiplicação\r\n4-Divisão\r\n5-Sair\n");
             Opcao = int.Parse(Console.ReadLine());
 
+            if (Opcao == 5)
+                break;
+
             Console.WriteLine("\nDigite o primeiro número: ");
             Numero1 = float.Parse(Console.ReadLine());
             Console.WriteLine("\nDigite o segundo número: ");

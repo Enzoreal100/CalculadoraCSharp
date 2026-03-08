@@ -60,7 +60,7 @@ Inserir 4 prints, um para cada operacao, evidenciando o funcionamento correto:
 
 - [x] Nome dos integrantes preenchido (ate 5 pessoas)
 - [x] Print do menu da calculadora adicionado
-- [ ] Print de teste da adicao adicionado
+- [x] Print de teste da adicao adicionado
 - [ ] Print de teste da subtracao adicionado
 - [ ] Print de teste da multiplicacao adicionado
 - [ ] Print de teste da divisao adicionado
