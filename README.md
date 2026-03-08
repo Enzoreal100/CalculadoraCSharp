@@ -59,7 +59,7 @@ Inserir 4 prints, um para cada operacao, evidenciando o funcionamento correto:
 ## Checklist final de entrega
 
 - [x] Nome dos integrantes preenchido (ate 5 pessoas)
-- [ ] Print do menu da calculadora adicionado
+- [x] Print do menu da calculadora adicionado
 - [ ] Print de teste da adicao adicionado
 - [ ] Print de teste da subtracao adicionado
 - [ ] Print de teste da multiplicacao adicionado
