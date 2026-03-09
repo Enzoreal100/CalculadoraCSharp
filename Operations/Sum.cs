@@ -9,9 +9,7 @@ public class Sum: IOperation
 
     string IOperation.ShowResult(float a, float b, float result)
     {
-        string output = $"\n{a} + {b} = {result}";
-        Console.WriteLine(output);
-        return output;
+        return $"\n{a} + {b} = {result}";
     }
 
 }

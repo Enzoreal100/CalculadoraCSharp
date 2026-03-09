@@ -25,7 +25,7 @@
             switch (Opcao) {
                 case 1:
                     Result = SumOperation.DoOperation(Numero1, Numero2);
-                    SumOperation.ShowResult(Numero1, Numero2, Result);
+                    Console.WriteLine(SumOperation.ShowResult(Numero1, Numero2, Result));
                 break;
             }
         }
