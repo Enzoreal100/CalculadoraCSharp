@@ -26,20 +26,17 @@ Inserir 1 print com as opcoes carregadas no console:
 - 3 - Multiplicacao
 - 4 - Divisao
 
-Exemplo de insercao de imagem:
 
-```md
 ![Menu da calculadora](./docs/menu-calculadora.png)
-```
+
 
 ## Evidencias de teste (4 prints)
 
 Inserir 4 prints, um para cada operacao, evidenciando o funcionamento correto:
 
 1. Adicao
-```md
+
 ![Teste de adicao](./docs/teste-adicao.png)
-```
 
 2. Subtracao
 ```md
@@ -59,8 +56,8 @@ Inserir 4 prints, um para cada operacao, evidenciando o funcionamento correto:
 ## Checklist final de entrega
 
 - [x] Nome dos integrantes preenchido (ate 5 pessoas)
-- [ ] Print do menu da calculadora adicionado
-- [ ] Print de teste da adicao adicionado
+- [x] Print do menu da calculadora adicionado
+- [x] Print de teste da adicao adicionado
 - [ ] Print de teste da subtracao adicionado
 - [ ] Print de teste da multiplicacao adicionado
 - [ ] Print de teste da divisao adicionado
