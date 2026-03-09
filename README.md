@@ -26,8 +26,6 @@ Inserir 1 print com as opcoes carregadas no console:
 - 3 - Multiplicacao
 - 4 - Divisao
 
-Exemplo de insercao de imagem:
-
 
 ![Menu da calculadora](./docs/menu-calculadora.png)
 
