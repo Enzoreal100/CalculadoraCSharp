@@ -57,4 +57,4 @@ Inserir 4 prints, um para cada operacao, evidenciando o funcionamento correto:
 - [x] Print de teste da adicao adicionado
 - [x] Print de teste da subtracao adicionado
 - [x] Print de teste da multiplicacao adicionado
-- [ ] Print de teste da divisao adicionado
+- [x] Print de teste da divisao adicionado
