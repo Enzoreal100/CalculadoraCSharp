@@ -5,6 +5,7 @@
         IOperation sumOperation = new Sum();
         IOperation subtractionOperation = new Subtraction();
         IOperation multiplicationOperation = new Multiplication();
+        IOperation divisaoOperation = new Divisao();
 
         float result;
         int opcao = 0;
@@ -36,6 +37,10 @@
                 case 3:
                     result = multiplicationOperation.DoOperation(numero1, numero2);
                     Console.WriteLine(multiplicationOperation.ShowResult(numero1, numero2, result));
+                break;
+                case 4:
+                    result = divisaoOperation.DoOperation(numero1, numero2);
+                    Console.WriteLine(divisaoOperation.ShowResult(numero1, numero2, result));
                 break;
             }
         }
