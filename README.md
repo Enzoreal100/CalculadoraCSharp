@@ -28,18 +28,17 @@ Inserir 1 print com as opcoes carregadas no console:
 
 Exemplo de insercao de imagem:
 
-```md
+
 ![Menu da calculadora](./docs/menu-calculadora.png)
-```
+
 
 ## Evidencias de teste (4 prints)
 
 Inserir 4 prints, um para cada operacao, evidenciando o funcionamento correto:
 
 1. Adicao
-```md
+
 ![Teste de adicao](./docs/teste-adicao.png)
-```
 
 2. Subtracao
 ```md
