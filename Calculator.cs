@@ -3,6 +3,7 @@
     public static void Main(string[] args)
     {
         IOperation SumOperation = new Sum();
+        IOperation SubtractionOperation = new Subtraction();
 
         float Result = 0.0f;
         int Opcao = 0;
@@ -26,6 +27,10 @@
                 case 1:
                     Result = SumOperation.DoOperation(Numero1, Numero2);
                     Console.WriteLine(SumOperation.ShowResult(Numero1, Numero2, Result));
+                break;
+                case 2:
+                    Result = SubtractionOperation.DoOperation(Numero1, Numero2);
+                    Console.WriteLine(SubtractionOperation.ShowResult(Numero1, Numero2, Result));
                 break;
             }
         }
