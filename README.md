@@ -39,25 +39,22 @@ Inserir 4 prints, um para cada operacao, evidenciando o funcionamento correto:
 ![Teste de adicao](./docs/teste-adicao.png)
 
 2. Subtracao
-```md
+
 ![Teste de subtracao](./docs/teste-subtracao.png)
-```
 
 3. Multiplicacao
-```md
+
 ![Teste de multiplicacao](./docs/teste-multiplicacao.png)
-```
 
 4. Divisao
-```md
+
 ![Teste de divisao](./docs/teste-divisao.png)
-```
 
 ## Checklist final de entrega
 
 - [x] Nome dos integrantes preenchido (ate 5 pessoas)
 - [x] Print do menu da calculadora adicionado
 - [x] Print de teste da adicao adicionado
-- [ ] Print de teste da subtracao adicionado
+- [x] Print de teste da subtracao adicionado
 - [ ] Print de teste da multiplicacao adicionado
 - [ ] Print de teste da divisao adicionado
