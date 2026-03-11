@@ -19,6 +19,11 @@
 
             if (opcao == 5)
                 break;
+            else if (opcao < 1 || opcao > 4)
+            {
+                Console.WriteLine("Opção inválida!");
+                continue;
+            }
 
             Console.WriteLine("\nDigite o primeiro número: ");
             numero1 = float.Parse(Console.ReadLine());
