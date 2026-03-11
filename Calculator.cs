@@ -15,7 +15,11 @@
         while (opcao != 5)
         {
             Console.WriteLine("\nEscolha uma opção: \r\n1-Adição\r\n2-Subtração\r\n3-Multiplicação\r\n4-Divisão\r\n5-Sair\n");
-            opcao = int.Parse(Console.ReadLine());
+            if (!int.TryParse(Console.ReadLine(), out opcao))
+            {
+                Console.WriteLine("\nErro: Opção inválida. Por favor, insira um número.");
+                continue;
+            }
 
             if (opcao == 5)
                 break;
@@ -26,9 +30,17 @@
             }
 
             Console.WriteLine("\nDigite o primeiro número: ");
-            numero1 = float.Parse(Console.ReadLine());
+            if (!float.TryParse(Console.ReadLine(), out numero1))
+            {
+                Console.WriteLine("\nErro: Entrada inválida. Por favor, insira um número.");
+                continue;
+            }
             Console.WriteLine("\nDigite o segundo número: ");
-            numero2 = float.Parse(Console.ReadLine());
+            if (!float.TryParse(Console.ReadLine(), out numero2))
+            {
+                Console.WriteLine("\nErro: Entrada inválida. Por favor, insira um número.");
+                continue;
+            }
 
             switch (opcao) {
                 case 1:
